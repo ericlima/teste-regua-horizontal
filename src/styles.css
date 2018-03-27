@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+#overflowTest {
+  background: #4CAF50;
+  color: white;
+  padding: 15px;
+  width: 12000px;
+  /*height: 400px;*/
+  overflow: none;
+  border: 1px solid red;
+}
+#janela {
+  width: 90%;
+  height: 200px;
+  overflow: none;
+  overflow-x: none;
+  overflow-y: none;
+}
+
+ul li { display: inline; }
+
+ul li a {
+  padding: 2px 2px;
+  margin: 2px 2px 2px 2px;
+  display: inline-block;
+  height: 50px;
+
+  /* visual do link */
+  background-color:#EDEDED;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid yellow;
+}
